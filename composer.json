@@ -1,17 +1,17 @@
 {
-  "name": "renan-s-souza/theme-starter",
+  "name": "renandesouza/theme-starter",
   "description": "Starter de temas para Vue + Inertia + Laravel",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Laravel\\ThemeStarter\\": "src/"
+      "RenanDeSouza\\ThemeStarter\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Laravel\\ThemeStarter\\ThemeStarterServiceProvider"
+        "RenanDeSouza\\ThemeStarter\\ThemeStarterServiceProvider"
       ]
     }
   }

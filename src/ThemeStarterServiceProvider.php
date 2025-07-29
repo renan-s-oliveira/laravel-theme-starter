@@ -1,16 +1,16 @@
 <?php
 
-namespace Laravel\ThemeStarter;
+namespace RenanDeSouza\ThemeStarter;
 
 use Illuminate\Support\ServiceProvider;
-use Laravel\ThemeStarter\Console\MakeThemeCommand;
+use RenanDeSouza\ThemeStarter\Console\MakeThemeCommand;
 
 class ThemeStarterServiceProvider extends ServiceProvider
 {
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../stubs' => base_path('stubs/theme-starter'),
+            __DIR__.'/../stubs' => base_path('stubs/theme-starter'),
         ], 'theme-starter-stubs');
 
         if ($this->app->runningInConsole()) {

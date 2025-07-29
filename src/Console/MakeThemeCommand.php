@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\ThemeStarter\Console;
+namespace RenanDeSouza\ThemeStarter\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
