@@ -3,7 +3,7 @@
 namespace Laravel\ThemeStarter;
 
 use Illuminate\Support\ServiceProvider;
-use RenanDeSouza\ThemeStarter\Console\MakeThemeCommand;
+use Laravel\ThemeStarter\Console\MakeThemeCommand;
 
 class ThemeStarterServiceProvider extends ServiceProvider
 {
